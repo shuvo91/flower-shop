@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* primary btn */
+
+.primary-btn{
+    color: white;
+    background-color: #E55473;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .5s;
+    border: 1px solid transparent;
+   
+
+}
+
+.primary-btn:hover{
+    color: #E55473;
+    border: 1px solid #E55473;
+    background-color: white;
+}
+
+
+/* header */
+header{
+    background-color: rgba(229, 84, 115, 0.10);;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-content{
+    text-align: left;
+    width: 50%;
+    /* padding: 197px auto 147px 240px; */
+    padding-left: 240px;
+    padding-top: 197px;
+}
+
+.banner-content h1{
+    font-size: 80px;
+    font-weight: 800;
+    color: #272727;
+    width: 91%;
+}
+
+.banner-content p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 32px 0;
+    width: 74%;
+    color: #27272799;
+}
+
+
+.banner-img{
+    width: 50%;
+}
+
+.banner-img img{
+    height: 800px;
+    padding-top: 50px;
+    padding-right: 240px;
+}
+
+.top-rf{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 24px;
+    justify-content: center;
+}
+
+.flower-box{
+    width: 464px;
+    height: 538px;
+    position: relative;
+    border-radius: 235px 235px 0 0;
+}
+
+.flower-1 {
+   
+    background-color: rgba(167, 33, 98, 0.15);
+    
+}
+.flower-1 img{
+    width: 310px;
+    position: absolute;
+    bottom: 0;
+    left: 14%;
+}
+.flower-2 {
+    
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.flower-2 img{
+    width: 370px;
+    position: absolute;
+    bottom: 0;
+    left: 14%;
+}
+.flower-3 {
+    
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.flower-3 img{
+    width: 314px;
+    position: absolute;
+    bottom: 0;
+    left: 14%;
+}
+
+.title h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #272727;
+    margin-top: 32px;
+}
+
+.service{
+    width: 80%;
+    margin: 128px auto;
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    display: flex;
+    padding: 86px 175px;
+    gap: 100px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.service-box{
+    text-align: center;
+}
+
+.service-box h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(39, 39, 39, 0.80);
+    margin-top: 24px;
+}
+
+
+
+.flower-list{
+    width: 80%;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.last-title{
+
+    text-align: center;
+    margin-top: 178px;
+
+}
+
+.last-title h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin: auto;
+    width: 33%;
+}
+
+.last-title p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px auto;
+    width: 33%;
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 48px;
+}
+
+
+.hot-deal{
+    padding: 100px 0;
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.05);
+
+}
+
+.hd-title{
+    text-align: center;
+    width: 50%;
+    margin-left: 395px;
+    padding-top: 130px;
+}
+
+.hd-title h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+    width: 75%;
+}
+
+.hd-title span{
+    color: #E55473;
+}
+
+.hd-title p{
+    width: 77%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.60);
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.hd-title button{
+    display: inline-block;
+    position: relative;
+    right: 102px;
+}
+
+
+.hd-img{
+    padding-right: 429px;
+}
+
+.hd-img img{
+    height: 420px;
+}
+
+
+.latest-deal{
+    width: 80%;
+    background: url("../Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 122px 250px;
+    box-sizing: border-box;
+    margin: 128px auto;
+    background-position: top center;
+}
+
+
+.latestdeal-container h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+}
+
+.latestdeal-container h4{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 16px;
+}
+
+
+form{
+    margin-top: 65px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+form input{
+    width: 700px;
+    outline: none;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    padding: 22px;
+    border-radius: 8px;
+}
+
+
+.instagram{
+    text-align: center;
+
+}
+
+.instagram h1{
+color: #111010;
+font-size: 40px;
+font-weight: 800;
+width: 40%;
+margin: auto;
+margin-top: 128px;
+}
+
+.instagram p{
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+width: 40%;
+margin: auto;
+margin-top: 24px;
+margin-bottom: 48px;
+}
+
+
+footer{
+    padding: 128px;
+    background-color: #111010;
+    text-align: center;
+}
+
+footer h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    margin: auto;
+    width: 33%;
+}
+
+footer h1 span{
+    color: #E55473;
+}
+
+footer p{
+    width: 35%;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 24px auto 32px auto;
+    color: rgba(255, 255, 255, 0.90);
+}
+
+footer h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.40);
+    width: 33%;
+    margin: auto;
+    
+}
