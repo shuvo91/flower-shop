@@ -4,7 +4,6 @@
     font-family: 'Lato', sans-serif;
 }
 
-/* primary btn */
 
 .primary-btn{
     color: white;
@@ -28,7 +27,6 @@
 }
 
 
-/* header */
 header{
     background-color: rgba(229, 84, 115, 0.10);;
 }
@@ -40,7 +38,6 @@ header{
 .banner-content{
     text-align: left;
     width: 50%;
-    /* padding: 197px auto 147px 240px; */
     padding-left: 240px;
     padding-top: 197px;
 }
@@ -61,7 +58,6 @@ header{
     color: #27272799;
 }
 
-
 .banner-img{
     width: 50%;
 }
@@ -71,6 +67,9 @@ header{
     padding-top: 50px;
     padding-right: 240px;
 }
+
+
+.top-rf{}
 
 .top-rf{
     display: flex;
@@ -128,6 +127,7 @@ header{
     margin-top: 32px;
 }
 
+
 .service{
     width: 80%;
     margin: 128px auto;
@@ -152,38 +152,12 @@ header{
 }
 
 
-
 .flower-list{
     width: 80%;
     display: flex;
     gap: 24px;
     justify-content: center;
     margin: auto;
-}
-
-
-.last-title{
-
-    text-align: center;
-    margin-top: 178px;
-
-}
-
-.last-title h1{
-    font-size: 40px;
-    font-weight: 800;
-    margin: auto;
-    width: 33%;
-}
-
-.last-title p{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin: 24px auto;
-    width: 33%;
-    color: rgba(39, 39, 39, 0.60);
-    margin-bottom: 48px;
 }
 
 
@@ -251,13 +225,13 @@ header{
 }
 
 
-.latestdeal-container h1{
+.latest-deal-container h1{
     font-size: 40px;
     font-weight: 800;
-    color: #272727;
+    color: #464646;
 }
 
-.latestdeal-container h4{
+.latest-deal-container h4{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -285,32 +259,6 @@ form input{
 }
 
 
-.instagram{
-    text-align: center;
-
-}
-
-.instagram h1{
-color: #111010;
-font-size: 40px;
-font-weight: 800;
-width: 40%;
-margin: auto;
-margin-top: 128px;
-}
-
-.instagram p{
-color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-width: 40%;
-margin: auto;
-margin-top: 24px;
-margin-bottom: 48px;
-}
-
-
 footer{
     padding: 128px;
     background-color: #111010;
@@ -326,7 +274,7 @@ footer h1{
 }
 
 footer h1 span{
-    color: #E55473;
+    color: #f13860;
 }
 
 footer p{
@@ -335,14 +283,74 @@ footer p{
     line-height: 30px;
     font-weight: 400;
     margin: 24px auto 32px auto;
-    color: rgba(255, 255, 255, 0.90);
+    color: rgba(255, 244, 244, 0.9);
 }
 
 footer h5{
     font-size: 16px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.40);
+    color: rgba(236, 229, 229, 0.4);
     width: 33%;
     margin: auto;
     
+}
+
+
+.last-title{
+
+    text-align: center;
+    margin-top: 178px;
+
+}
+
+.last-title h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin: auto;
+    width: 33%;
+}
+
+.last-title p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px auto;
+    width: 33%;
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 48px;
+}
+
+.best-sells{
+   
+margin: auto;
+   
+padding: 80px 0;
+   
+margin-top: 168px;
+}
+
+
+.instagram{
+    text-align: center;
+
+}
+
+.instagram h1{
+color: #2c2929;
+font-size: 40px;
+font-weight: 800;
+width: 40%;
+margin: auto;
+margin-top: 128px;
+}
+
+.instagram p{
+color: rgba(65, 63, 63, 0.6);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+width: 40%;
+margin: auto;
+margin-top: 24px;
+margin-bottom: 48px;
 }
